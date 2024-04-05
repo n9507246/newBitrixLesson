@@ -4,3 +4,4 @@
 !local/**/*
 !.gitignore
 !404.php
+!index.php
