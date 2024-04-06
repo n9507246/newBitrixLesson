@@ -91,7 +91,7 @@
 	</div>
 
 	<!-- Шапка сайта (меню) -->
-	<header id="sticky-header" class="header-area header-wrapper white-bg">
+	<header id="sticky-header" class="header-area header-wrapper <?= $APPLICATION->GetCurDir() === '/' ? 'transparent-header': 'white-bg'; ?> ">
 		<!-- Меню (для десктопа) -->
 		<div class="header-middle-area full-width">
 			<div class="container">
@@ -192,6 +192,7 @@
 		</div>
 	</header>
 
+	<?php if ($APPLICATION->GetCurDir() !== '/'): ?>
 	<!-- Хлебные крошки (навигация) -->
 	<div class="breadcrumb-area brand-bg ptb-100">
 		<div class="container width-100">
@@ -216,3 +217,4 @@
 			</div>
 		</div>
 	</div>
+	<?php endif; ?>
