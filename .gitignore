@@ -1,14 +1,3 @@
-*
-!local/
-!local/*
-!local/**/*
-!.gitignore
-!404.php
-!index.php
-!.top.menu.php
-!test.php
-!about/
-!about/*
-!index_about_image.php
-!index_about_text.php
-!index_about_title.php
+bitrix/
+bitrix/*
+bitrix/**/*
