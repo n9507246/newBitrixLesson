@@ -1,3 +1,3 @@
-bitrix/
-bitrix/*
-bitrix/**/*
+/bitrix/
+/bitrix/*
+/bitrix/**/*
